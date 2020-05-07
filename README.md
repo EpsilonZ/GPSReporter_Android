@@ -19,6 +19,4 @@ while(True):
         connection.close()
 
         print(data)
-        lat,lon,speed = data.split(",")
-        ```
-
+        lat,lon,speed = data.split(",")```
