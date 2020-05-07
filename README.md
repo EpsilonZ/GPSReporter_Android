@@ -9,6 +9,17 @@ Set up a server with this code (enter the IP on the app) and you'll be able to r
 ```
 import socket
 
+def recvall(sock):
+        BUFF_SIZE = 1 # 4 KiB
+        data = b''
+        while True:
+                part = sock.recv(BUFF_SIZE)
+                data += part
+                recv_end = data.decode('utf-8').find('\n')
+                if recv_end != -1:
+                        break
+        return data.decode('utf-8')[:-1]
+
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind(('0.0.0.0',15000))
 sock.listen(1)
