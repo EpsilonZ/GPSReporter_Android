@@ -1,6 +1,7 @@
 # Test
 
-__Important note: When executing this app you'll retrieve gps data with a lot of updates so battery may drain really fast. Also, if you enable maximum performance on your Android phone it'll run better__
+__Important note: Enable WiFi for the best results. It'll be used to get better results__
+__Note about setting up the app: When executing this app you'll retrieve gps data with a lot of updates so battery may drain really fast. Also, if you enable maximum performance on your Android phone it'll run better. __
 
 Set up a server with this code (enter the IP on the app) and you'll be able to receive GPS data:
 
