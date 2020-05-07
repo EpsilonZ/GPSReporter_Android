@@ -1,6 +1,6 @@
 # Test
 
-__Important note: Enable WiFi for the best results. It'll be used to get better results__
+__Important note: Enable WiFi for better results__
 
 __Note about setting up the app: When executing this app you'll retrieve gps data with a lot of updates so battery may drain really fast. Enable maximum performance on your Android phone for better results__
 
