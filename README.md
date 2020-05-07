@@ -6,7 +6,8 @@ __Note about setting up the app: When executing this app you'll retrieve gps dat
 
 Set up a server with this code (enter the IP on the app) and you'll be able to receive GPS data:
 
-```import socket
+```
+import socket
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind(('0.0.0.0',15000))
